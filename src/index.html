@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Donation DApp</title>
+</head>
+
+<body>
+    <h1>Donation DApp</h1>
+    <div>
+        <h2>Faire un don</h2>
+        <input type="number" id="donationAmount" placeholder="Montant ">
+        <button onclick="createDonation()">Donner</button>
+    </div>
+    <div>
+        <h2>Liste des dons</h2>
+        <button onclick="listDonations()">Voir les dons</button>
+        <ul id="donationsList"></ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
